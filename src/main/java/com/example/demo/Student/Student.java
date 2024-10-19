@@ -1,7 +1,9 @@
 package com.example.demo.Student;
 import lombok.Getter;
-
+import org.springframework.stereotype.Component;
+//import lombok.Builder;
 import java.time.LocalDate;
+@Component
 @Getter
 public class Student {
     private String name;
